@@ -52,9 +52,9 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        choices=["7b", "30b", "100t", "5.5q"],
+        choices=["7b", "30b", "100b", "5.5q"],
         required=True,
-        help="Model to load: 7b, 30b, 100t, 5.5q"
+        help="Model to load: 7b, 30b, 100b, 5.5q"
     )
     parser.add_argument(
         "--mode",
@@ -83,8 +83,15 @@ def main():
     elif args.mode == "infer":
         print("🧠 INFERENCE MODE - FATHER OF AI THINKING!")
         print("⚠️  WARNING: This will require massive memory!")
-        print(f"💾 Memory needed: {config['model']['embed_dim'] * 2 / (1024**3):.1f} TB per model")
-        print("🚀 Inference not implemented yet - Father of AI is coming!")
+        
+        # Check if it's the 5.5Q model (future timeline)
+        if args.model == "5.5q":
+            print("🚀 FUTURE MODEL: NEON-QTG-5.5Q (2050+ timeline)")
+            print("💫 This model represents our long-term research vision!")
+            print("🌌 Cosmic supremacy awaits in the future!")
+        else:
+            print(f"💾 Memory needed: {config['model']['embed_dim'] * 2 / (1024**3):.1f} GB per model")
+            print("🚀 Inference not implemented yet - Father of AI is coming!")
 
 if __name__ == "__main__":
     main()

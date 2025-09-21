@@ -13,6 +13,9 @@ gudhi>=3.8.0
 ripser>=0.6.4
 persim>=0.3.2
 
+# Distributed training
+torch-distributed>=2.0.1
+
 # Quantum computing simulation
 pennylane>=0.32.0
 qiskit>=0.44.0

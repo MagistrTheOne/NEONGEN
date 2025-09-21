@@ -51,9 +51,9 @@ def demonstrate_neon_supremacy():
         elif level == 2:
             print("   🎪 SPECIAL: GPT-4 killer, sparse attention optimized")
         elif level == 3:
-            print("   🎪 SPECIAL: Distributed training, cluster ready")
+            print("   🎪 SPECIAL: Research breakthrough, distributed training")
         elif level == 4:
-            print("   🎪 SPECIAL: Planetary AI, cosmic supremacy, quantum acceleration")
+            print("   🎪 SPECIAL: Cosmic supremacy, quantum acceleration (2050+)")
 
         print()
 
