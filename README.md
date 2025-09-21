@@ -574,9 +574,8 @@ MIT License - см. [LICENSE](LICENSE) файл для деталей.
 - **LinkedIn:** MagistrTheOne Research
 
 ### Для инвестиций и коммерческого партнерства:
-- **Email:** neon@qtg.ai
-- **Website:** https://neon-qtg.ai
-- **GitHub:** https://github.com/MagistrTheOne/NEONGEN
+- **Email:** maxonyushko71@gmail.com
+ 
 
 ---
 
